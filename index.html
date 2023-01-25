@@ -41,12 +41,32 @@
                         <img src="img/header-img2.png" alt="статистика">
                         <p class="p-block">Poisonous, odourless, tasteless and colourless</p>
                     </div>
-                </div>        
+                </div>
             </div>
             <img src="img/big-h-img2.png" alt="" class="big-header-img">
         </section>
     </header>
     <main>
+        <form action="//httpbin.org/post" method="post">
+            <fieldset>
+                <legend>Телефон и email</legend>
+                <p class="name-input"><label>email <input type="email" placeholder="sapr@mail.ru" name="email"></label>
+                </p>
+                <p class="name-input"><label>tel <input type="tel" placeholder="7-999-99-99" name="tel"></label></p>
+            </fieldset>
+            <button class="send" type="submit"><img src="img/send.svg" alt=""></button>
+            <fieldset>
+                <legend>Выберите пол:</legend>
+                <ul>
+                    <li>
+                        <label><input type="radio" name="radio" value="1">Мужской</label>
+                    </li>
+                    <li>
+                        <label><input type="radio" name="radio" value="2">Женский</label>
+                    </li>
+                </ul>
+            </fieldset>
+        </form>
 
     </main>
 </body>
