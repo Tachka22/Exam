@@ -28,15 +28,19 @@ nav{
     justify-content: space-between;
     margin-bottom: 16px;
 }
+span{
+    color: var(--hover-color);
+}
 .btn-menu{
     border-color: transparent;
     background-color: transparent;
+    
 }
-br{
-    color: var(--white-color);
-    height: 2px;
-    width: 100px;
+hr{
+    
+    color: var(--line-color);
     margin-bottom: 25px;
+    width: 100%;
 }
 h1{
     text-align: left;
